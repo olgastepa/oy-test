@@ -56,11 +56,12 @@ footer {
     justify-content: space-around!important;
     padding-top: 30px;
     padding-bottom: 30px;
+    flex-wrap: nowrap!important;
 }
 .footer-title {
     color: var(--white);
     text-decoration: none;
-    font-family: 'Lora';
+    font-family: var(--text-font-family);
     font-weight: 100;
 }
 .footer-logo {
@@ -68,6 +69,9 @@ footer {
     width: 180px;
 }
 .footer-section {
+    margin: 20px;
+    height: auto;
+
     border: 1px solid white;
 }
 .footer-sm {
@@ -212,6 +216,9 @@ footer {
     .icons-container {
         height: auto;
         flex-direction: column;
+    }
+    .icons-box .icons-box {
+
     }
     .body-wide {
         width: 90vw!important;
@@ -422,7 +429,7 @@ footer {
   .icons-container {
       width: 100vw;
       height: auto;
-      background-image: url(assets/index-page/philosophy-image.png);
+      background-image: url(assets/index-page/philosophy-image.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -454,7 +461,7 @@ footer {
       padding-bottom: 30px;
       padding-top: 30px;
       flex-direction: column;
-      background-image: url(assets/index-page/quote-image.png);
+      background-image: url(assets/index-page/quote-image.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
