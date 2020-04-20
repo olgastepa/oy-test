@@ -87,6 +87,7 @@ footer {
       display: block;
       margin: auto;
       margin-top: -50px;
+      padding: 0 5px 0 5px;
   }
   .sm-container {
       position: absolute;
