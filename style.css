@@ -67,6 +67,7 @@ footer {
 .footer-logo {
     display: block;
     width: 180px;
+    padding: 0 5px 0 5px;
 }
 .footer-section {
     margin: 20px;
