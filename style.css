@@ -174,7 +174,8 @@ footer {
     }
     .footer-section, .footer-logo {
         margin-left: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        margin-top: 20px;
     }
     .nav-section {
         border-bottom: none!important;
@@ -264,7 +265,7 @@ footer {
    .contact-page .services-box {
         margin: 7px!important;
         height: auto!important;
-        width: 180px!important;
+        width: 175px!important;
     }
     .contact-page .services-box .title-two {
         font-size: 12pt;
@@ -403,6 +404,7 @@ footer {
   .footer-text {
       color: var(--white);
       font-family: var(--text-font-family);
+      font-weight: 100;
   }
   /*INDEX*/
   .intro-container {
