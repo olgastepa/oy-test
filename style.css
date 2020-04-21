@@ -67,7 +67,7 @@ footer {
 .footer-logo {
     display: block;
     width: 180px;
-
+    border: 1px solid white;
 }
 .footer-section {
     margin: 20px;
@@ -88,6 +88,7 @@ footer {
       display: block;
       margin: auto;
       margin-top: -50px;
+      border: 1px solid white;
   }
   .sm-container {
       position: absolute;
