@@ -72,6 +72,7 @@ footer {
 .footer-section {
     margin: 20px;
     height: auto;
+    width: auto;
 }
 .footer-sm {
     justify-content: space-between;
@@ -182,7 +183,6 @@ footer {
         margin-left: 20px;
         margin-bottom: 30px;
         margin-top: 20px;
-        width: 160px!important;
     }
     .nav-section {
         border-bottom: none!important;
