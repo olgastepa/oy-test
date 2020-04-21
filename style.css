@@ -179,6 +179,9 @@ footer {
         flex-direction: column;
         align-items: flex-start!important;
     }
+    .footer-section {
+        width: 90vw!important;
+    }
     .footer-section, .footer-logo {
         margin-left: 20px;
         margin-bottom: 30px;
