@@ -559,6 +559,12 @@ footer {
      border-radius: 4px;
      cursor: pointer;
      text-decoration: none;
+     transition: 0.5s ease-in;
+ }
+ .btn:hover {
+     background-color: var(--white);
+     color: var(--red);
+     text-decoration: underline;
  }
 
  /*CONTACT PAGE*/
@@ -671,6 +677,16 @@ footer {
     border-top: 1px solid white;
   }
 
+  .project-keywords {
+      list-style: none;
+      padding-left: 0;
+  }
+  .project-keywords-item {
+      color: var(--darkblue);
+      font-size: 14pt;
+      margin-bottom: 15px;
+      text-align: center;
+  }
   /*POLINVEST PAGE*/
   .font-family-container {
       width: 100vw;
@@ -798,7 +814,12 @@ footer {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-
+  }
+ .next:hover {
+      color: var(--blue);
+  }
+ .prev:hover {
+      color: var(--blue);
   }
   
   /* Position the "next button" to the right */
