@@ -72,7 +72,6 @@ footer {
 .footer-section {
     margin: 20px;
     height: auto;
-    border: 1px solid white;
 }
 .footer-sm {
     justify-content: space-between;
@@ -151,6 +150,9 @@ footer {
     transition: all 0.3s ease;
   }
 @media screen and (max-width:768px) {
+    .contact-card {
+        margin: 10px!important;
+    }
     .slideshow-img {
         width: 90%!important;
     }
@@ -242,7 +244,7 @@ footer {
         margin-bottom: 50px;
     }
     .title-one {
-        font-size: 30pt!important;
+        font-size: 22pt!important;
     }
     .services-container .services-box {
         width: 95vw;
@@ -404,6 +406,7 @@ footer {
       width: 60vw;
       margin: auto;
       color: var(--darkblue);
+      margin-bottom: 50px;
   }
   .title-five {
       color: var(--white);
@@ -470,8 +473,8 @@ footer {
   .quote-container {
       width: 100vw;
       height: auto;
-      padding-bottom: 30px;
-      padding-top: 30px;
+      padding-bottom: 50px;
+      padding-top: 50px;
       flex-direction: column;
       background-image: url(assets/index-page/quote-image.jpg);
       background-position: center;
@@ -559,14 +562,34 @@ footer {
  }
 
  /*CONTACT PAGE*/
- .contact-page {
-     background-image: url(assets/contact-page/contact-image.jpg);
- }
-.contact-page .services-box {
-    height: 160px;
+.contact-container {
+    width: 100vw;
+    height: auto;
 }
-.services-container a {
+.contact-card {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
     text-decoration: none;
+}
+.contact-img {
+    width: 40px;
+    margin: 35px;
+}
+.title-contact{
+    font-size: 14pt;
+    font-family: var(--headings-font-family);
+    color: var(--blue);
+    font-weight: bold;
+}
+.contact-card .title-two {
+    font-size: 12pt;
+    font-family: var(--text-font-family);
+    color: var(--darkblue);
 }
 
 /*PROJECTS*/
@@ -649,6 +672,28 @@ footer {
   }
 
   /*POLINVEST PAGE*/
+  .font-family-container {
+      width: 100vw;
+      height: auto;
+  }
+  .font-family-box {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      margin: 20px;
+  }
+  .font-title {
+      font-size: 14pt;
+      color: var(--darkblue);
+      font-weight: bold;
+  }
+  .font-text{
+    font-size: 12pt;
+    color: var(--darkblue);
+    margin-bottom: 5px;
+    letter-spacing: 2pt;
+  }
   .line-left {
       display: none;
   }
@@ -673,6 +718,7 @@ footer {
       text-align: center;
       line-height: 100px;
       font-family: var(--text-font-family);
+      margin: 10px;
   }
   .color-one-polinvest {
       background-color: #112222;
@@ -680,6 +726,20 @@ footer {
   .color-two-polinvest {
       background-color: #F0CEA0;
   }
+
+  .color-one-park2 {
+      background-color: #0F4C8E;
+  }
+  .color-two-park2 {
+      background-color: #5079AE;
+  }
+  .color-three-park2 {
+      background-color: #509FAE;
+  }
+  .color-four-park2 {
+      background-color: #C5E1F2;
+  }
+  
   .projcet-img-logo {
       width: 500px;
       display: block;
@@ -784,9 +844,9 @@ footer {
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 1s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
   }
   
   @-webkit-keyframes fade {
@@ -804,3 +864,10 @@ footer {
     .prev, .next,.text {font-size: 11px}
   }
 
+/*PROJECTS FONTS*/
+.font-lora {
+    font-family: 'Lora';
+}
+.font-ptserif {
+    font-family: 'PT Serif';
+}
